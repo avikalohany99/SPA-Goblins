@@ -5,3 +5,39 @@
     font-family: 'Permanent Marker', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
+header{
+    position: fixed;
+    right:0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+body{
+    background: red;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+}
+
+.navlist{
+    display: flex;
+    list-style-type: none;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
