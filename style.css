@@ -20,10 +20,6 @@ header{
     background: transparent;
 }
 
-/* body{
-    background: red;
-} */
-
 .logo{
     font-size: 30px;
     font-weight: 700;
@@ -61,4 +57,55 @@ header{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-text h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    font-size: 15px;
+    color: white;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.hero-img img{
+    width:400px;
+    height:auto;
+}
+
+.hero-text a{
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
 }
